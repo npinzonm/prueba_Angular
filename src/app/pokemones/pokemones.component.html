@@ -1,0 +1,18 @@
+
+  <table class="table" ng-init='configPages()'>
+    <thead class="thead-light">
+      <tr>
+        
+        <th scope="col">Nombre</th>
+        <th scope="col">URl</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let pokemon of pokemones">
+  
+        <td>{{pokemon.name}}</td>
+        <td>{{pokemon.url}}</td>
+      </tr>
+     
+    </tbody>
+  </table>
